@@ -1,0 +1,15 @@
+
+Yan, Ming, et al. "ProDFA: Accelerating Domain Applications with a Coarse-Grained Runtime Reconfigurable Architecture." ICPADS. 2012.
+被引用1次
+
+
+
+Elbirt A J et al. “Instruction-Level Distributed Processing for Symmetric-Key Cryptography.” Parallel and Distributed Processing Symposium. 2003. Apr. 22, 2003. pp. 78-87.
+
+Elbirt, Adam J., and Christof Paar. "An instruction-level distributed processor for symmetric-key cryptography." Parallel and Distributed Systems, IEEE Transactions on 16.5 (2005): 468-480.
+被引用63次
+
+
+
+Shahzad, Khawar, et al. "CoARX: a coprocessor for ARX-based cryptographic algorithms." Design Automation Conference (DAC), 2013 50th ACM/EDAC/IEEE. IEEE, 2013.
+被引用4次
