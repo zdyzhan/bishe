@@ -1,0 +1,368 @@
+*************1.AES****************
+the critical path of AES is:
+LUT -> 
+Shift -> 
+GF Multiplication -> 
+logic -> 
+the total delay of a round is :1.64ns
+the max_delay_element is :0.8ns
+
+*************2.DES****************
+the critical path of DES is:
+substitution -> 
+logic -> 
+LUT -> 
+substitution -> 
+logic -> 
+the total delay of a round is :1.6ns
+the max_delay_element is :0.52ns
+
+*************3.IDEA*************
+the critical path of IDEA is:
+Modular Multiplication -> 
+logic -> 
+Modular Multiplication -> 
+Modular add or sub  -> 
+Modular Multiplication -> 
+Modular add or sub  -> 
+logic -> 
+the total delay of a round is :3.32ns
+the max_delay_element is :0.9ns
+
+*************4.BLOWFISH*************
+the critical path of BLOWFISH is:
+logic -> 
+LUT -> 
+Modular add or sub  -> 
+logic -> 
+Modular add or sub  -> 
+logic -> 
+the total delay of a round is :1.18ns
+the max_delay_element is :0.52ns
+
+*************5.CAMELLIA*************
+the critical path of CAMELLIA is:
+LUT -> 
+logic -> 
+logic -> 
+logic -> 
+logic -> 
+substitution -> 
+logic -> 
+the total delay of a round is :1.22ns
+the max_delay_element is :0.52ns
+
+*************6.CAST128*************
+the critical path of CAST128 is:
+Modular add or sub  -> 
+Shift -> 
+LUT -> 
+logic -> 
+Modular add or sub  -> 
+Modular add or sub  -> 
+logic -> 
+the total delay of a round is :1.69ns
+the max_delay_element is :0.52ns
+
+*************7.GOST*************
+the critical path of GOST is:
+Modular add or sub  -> 
+LUT -> 
+Shift -> 
+logic -> 
+the total delay of a round is :1.11ns
+the max_delay_element is :0.52ns
+
+*************8.RC5*************
+the critical path of RC5 is:
+logic -> 
+Shift -> 
+Modular add or sub  -> 
+the total delay of a round is :0.59ns
+the max_delay_element is :0.28ns
+
+*************9.SEED*************
+the critical path of SEED is:
+logic -> 
+logic -> 
+LUT -> 
+logic -> 
+logic -> 
+logic -> 
+Modular add or sub  -> 
+LUT -> 
+logic -> 
+logic -> 
+logic -> 
+Modular add or sub  -> 
+LUT -> 
+logic -> 
+logic -> 
+logic -> 
+Modular add or sub  -> 
+logic -> 
+the total delay of a round is :2.85ns
+the max_delay_element is :0.52ns
+
+*************10.TWOFISH*************
+the critical path of TWOFISH is:
+logic -> 
+Shift -> 
+LUT -> 
+GF Multiplication -> 
+Modular add or sub  -> 
+Modular add or sub  -> 
+Modular add or sub  -> 
+logic -> 
+the total delay of a round is :2.49ns
+the max_delay_element is :0.8ns
+
+*************11.SM4*************
+the critical path of SM4 is:
+logic -> 
+logic -> 
+LUT -> 
+Shift -> 
+logic -> 
+logic -> 
+logic -> 
+logic -> 
+the total delay of a round is :1.04ns
+the max_delay_element is :0.52ns
+
+*************12.RC6*************
+the critical path of RC6 is:
+Modular add or sub  -> 
+LUT -> 
+Shift -> 
+logic -> 
+Shift -> 
+Modular add or sub  -> 
+the total delay of a round is :1.66ns
+the max_delay_element is :0.52ns
+
+*************13.SERPENT*************
+the critical path of SERPENT is:
+logic -> 
+LUT -> 
+Shift -> 
+Shift -> 
+Modular add or sub  -> 
+Shift -> 
+Modular add or sub  -> 
+Shift -> 
+the total delay of a round is :2.22ns
+the max_delay_element is :0.52ns
+
+*************14.TEA*************
+the critical path of TEA is:
+Shift -> 
+logic -> 
+Modular add or sub  -> 
+Modular add or sub  -> 
+logic -> 
+the total delay of a round is :0.9ns
+the max_delay_element is :0.28ns
+
+*************15.XTEA*************
+the critical path of XTEA is:
+Shift -> 
+Modular add or sub  -> 
+logic -> 
+Modular add or sub  -> 
+logic -> 
+the total delay of a round is :0.9ns
+the max_delay_element is :0.28ns
+
+*************16.SKIPJECT*************
+the critical path of SKIPJECT is:
+logic -> 
+LUT -> 
+logic -> 
+logic -> 
+LUT -> 
+logic -> 
+logic -> 
+LUT -> 
+logic -> 
+logic -> 
+LUT -> 
+logic -> 
+logic -> 
+logic -> 
+the total delay of a round is :2.48ns
+the max_delay_element is :0.52ns
+组合类型: BL BL BL BL LUT | the delay is: 0.680000 ns
+算法个数: 2 分别是：
+11 16 
+组合类型: BL BL BL BL | the delay is: 0.160000 ns
+算法个数: 3 分别是：
+5 11 16 
+组合类型: BL BL BL LUT BL BL | the delay is: 0.720000 ns
+算法个数: 2 分别是：
+9 16 
+组合类型: BL BL BL LUT BL | the delay is: 0.680000 ns
+算法个数: 2 分别是：
+9 16 
+组合类型: BL BL BL LUT | the delay is: 0.640000 ns
+算法个数: 3 分别是：
+9 11 16 
+组合类型: BL BL BL | the delay is: 0.120000 ns
+算法个数: 4 分别是：
+5 9 11 16 
+组合类型: BL BL LUT BL BL BL | the delay is: 0.720000 ns
+算法个数: 2 分别是：
+9 16 
+组合类型: BL BL LUT BL BL | the delay is: 0.680000 ns
+算法个数: 2 分别是：
+9 16 
+组合类型: BL BL LUT BL | the delay is: 0.640000 ns
+算法个数: 2 分别是：
+9 16 
+组合类型: BL BL LUT | the delay is: 0.600000 ns
+算法个数: 4 分别是：
+4 9 11 16 
+组合类型: BL BL | the delay is: 0.080000 ns
+算法个数: 6 分别是：
+4 5 9 10 11 16 
+组合类型: BL LUT BL BL BL BL | the delay is: 0.720000 ns
+算法个数: 2 分别是：
+5 16 
+组合类型: BL LUT BL BL BL | the delay is: 0.680000 ns
+算法个数: 3 分别是：
+5 9 16 
+组合类型: BL LUT BL BL | the delay is: 0.640000 ns
+算法个数: 3 分别是：
+5 9 16 
+组合类型: BL LUT BL | the delay is: 0.600000 ns
+算法个数: 3 分别是：
+5 9 16 
+组合类型: BL LUT SH | the delay is: 0.840000 ns
+算法个数: 3 分别是：
+1 11 13 
+组合类型: BL LUT | the delay is: 0.560000 ns
+算法个数: 8 分别是：
+1 2 4 5 9 11 13 16 
+组合类型: BL MAS BL BL | the delay is: 0.390000 ns
+算法个数: 2 分别是：
+4 9 
+组合类型: BL MAS BL | the delay is: 0.350000 ns
+算法个数: 3 分别是：
+4 9 15 
+组合类型: BL MAS LUT | the delay is: 0.830000 ns
+算法个数: 2 分别是：
+7 9 
+组合类型: BL MAS MAS BL | the delay is: 0.620000 ns
+算法个数: 2 分别是：
+6 14 
+组合类型: BL MAS MAS | the delay is: 0.580000 ns
+算法个数: 2 分别是：
+6 14 
+组合类型: BL MAS | the delay is: 0.310000 ns
+算法个数: 6 分别是：
+4 6 7 9 14 15 
+组合类型: BL SH MAS | the delay is: 0.590000 ns
+算法个数: 3 分别是：
+8 12 15 
+组合类型: BL SH | the delay is: 0.320000 ns
+算法个数: 5 分别是：
+8 10 12 14 15 
+组合类型: BL SUB BL LUT | the delay is: 1.100000 ns
+算法个数: 2 分别是：
+2 5 
+组合类型: BL SUB BL | the delay is: 0.580000 ns
+算法个数: 2 分别是：
+2 5 
+组合类型: BL SUB | the delay is: 0.540000 ns
+算法个数: 2 分别是：
+2 5 
+组合类型: BL | the delay is: 0.040000 ns
+算法个数: 16 分别是：
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 
+组合类型: GFM | the delay is: 0.800000 ns
+算法个数: 2 分别是：
+1 10 
+组合类型: LUT BL BL BL BL | the delay is: 0.680000 ns
+算法个数: 2 分别是：
+5 16 
+组合类型: LUT BL BL BL | the delay is: 0.640000 ns
+算法个数: 3 分别是：
+5 9 16 
+组合类型: LUT BL BL | the delay is: 0.600000 ns
+算法个数: 3 分别是：
+5 9 16 
+组合类型: LUT BL | the delay is: 0.560000 ns
+算法个数: 4 分别是：
+5 6 9 16 
+组合类型: LUT SH BL | the delay is: 0.840000 ns
+算法个数: 3 分别是：
+7 11 12 
+组合类型: LUT SH | the delay is: 0.800000 ns
+算法个数: 5 分别是：
+1 7 11 12 13 
+组合类型: LUT | the delay is: 0.520000 ns
+算法个数: 12 分别是：
+1 2 4 5 6 7 9 10 11 12 13 16 
+组合类型: MAS BL BL | the delay is: 0.350000 ns
+算法个数: 3 分别是：
+4 9 10 
+组合类型: MAS BL MAS BL | the delay is: 0.620000 ns
+算法个数: 2 分别是：
+4 15 
+组合类型: MAS BL MAS | the delay is: 0.580000 ns
+算法个数: 3 分别是：
+4 6 15 
+组合类型: MAS BL SH | the delay is: 0.590000 ns
+算法个数: 3 分别是：
+8 14 15 
+组合类型: MAS BL | the delay is: 0.310000 ns
+算法个数: 8 分别是：
+3 4 6 8 9 10 14 15 
+组合类型: MAS LUT SH BL | the delay is: 1.110000 ns
+算法个数: 2 分别是：
+7 12 
+组合类型: MAS LUT SH | the delay is: 1.070000 ns
+算法个数: 2 分别是：
+7 12 
+组合类型: MAS LUT | the delay is: 0.790000 ns
+算法个数: 3 分别是：
+7 9 12 
+组合类型: MAS MAS BL | the delay is: 0.580000 ns
+算法个数: 3 分别是：
+6 10 14 
+组合类型: MAS MAS | the delay is: 0.540000 ns
+算法个数: 4 分别是：
+6 10 12 14 
+组合类型: MAS SH | the delay is: 0.550000 ns
+算法个数: 2 分别是：
+6 13 
+组合类型: MAS | the delay is: 0.270000 ns
+算法个数: 11 分别是：
+3 4 6 7 8 9 10 12 13 14 15 
+组合类型: SH BL MAS | the delay is: 0.590000 ns
+算法个数: 2 分别是：
+7 14 
+组合类型: SH BL | the delay is: 0.320000 ns
+算法个数: 5 分别是：
+7 11 12 13 14 
+组合类型: SH LUT | the delay is: 0.800000 ns
+算法个数: 2 分别是：
+6 10 
+组合类型: SH MAS BL | the delay is: 0.590000 ns
+算法个数: 2 分别是：
+8 15 
+组合类型: SH MAS | the delay is: 0.550000 ns
+算法个数: 4 分别是：
+8 12 13 15 
+组合类型: SH | the delay is: 0.280000 ns
+算法个数: 10 分别是：
+1 6 7 8 10 11 12 13 14 15 
+组合类型: SUB BL LUT | the delay is: 1.060000 ns
+算法个数: 2 分别是：
+2 5 
+组合类型: SUB BL | the delay is: 0.540000 ns
+算法个数: 2 分别是：
+2 5 
+组合类型: SUB | the delay is: 0.500000 ns
+算法个数: 2 分别是：
+2 5 
