@@ -132,8 +132,8 @@ the max_delay_element is :0.52ns
 
 *************12.RC6*************
 the critical path of RC6 is:
-Modular add or sub  -> 
-LUT -> 
+X2A1  -> 
+MM -> 
 Shift -> 
 logic -> 
 Shift -> 
