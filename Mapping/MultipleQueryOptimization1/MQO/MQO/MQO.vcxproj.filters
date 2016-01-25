@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ullmann.cpp">
+      <Filter>Source Files\SubgraphIsomorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="PCMBuilder.cpp">
+      <Filter>Source Files\PCMBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="TLSGraph.cpp">
+      <Filter>Source Files\PCMBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboLinkedLists.cpp">
+      <Filter>Source Files\IntermediateResult</Filter>
+    </ClCompile>
+    <ClCompile Include="FindAllMaximalCliques.cpp">
+      <Filter>Source Files\PCMBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="RecurParEmbConstruct.cpp">
+      <Filter>Source Files\PartialEmbeddingConstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="TurboIsoBoosted.cpp">
+      <Filter>Source Files\SubgraphIsomorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="VF2.cpp">
+      <Filter>Source Files\SubgraphIsomorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="TurboIso.cpp">
+      <Filter>Source Files\SubgraphIsomorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryGraphIsomorphismTest.cpp">
+      <Filter>Source Files\PCMBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="QuerySubgraphIsomorphismSearch.cpp">
+      <Filter>Source Files\PCMBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="main_debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindMaximumClique.cpp">
+      <Filter>Source Files\PCMBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="MQO.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="SQP.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalConstant.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="TurboIso_MQO.cpp">
+      <Filter>Source Files\SubgraphIsomorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="TurboIsoBoosted_MQO.cpp">
+      <Filter>Source Files\SubgraphIsomorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlapQueryGenerator.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomQG.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreVertexSpanOverlapQG.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSubgraphSpanOverlapQG.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CacheResultsTest.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="TurboIso_CacheResults.cpp">
+      <Filter>Source Files\SubgraphIsomorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="PartiLinkedLists.cpp">
+      <Filter>Source Files\IntermediateResult</Filter>
+    </ClCompile>
+    <ClCompile Include="FrequentPatternGroup.cpp">
+      <Filter>Source Files\PCMBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="fptree.cpp">
+      <Filter>Source Files\PCMBuilder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ullmann.h">
+      <Filter>Header Files\SubgraphIsomorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="TLSGraph.h">
+      <Filter>Header Files\PCMBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="PCMBuilder.h">
+      <Filter>Header Files\PCMBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboLinkedLists.h">
+      <Filter>Header Files\IntermediateResult</Filter>
+    </ClInclude>
+    <ClInclude Include="FindAllMaximalCliques.h">
+      <Filter>Header Files\PCMBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryGraphIsomorphismTest.h">
+      <Filter>Header Files\PCMBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="QuerySubgraphIsomorphismSearch.h">
+      <Filter>Header Files\PCMBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="RecurParEmbConstruct.h">
+      <Filter>Header Files\PartialEmbeddingConstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="TurboIsoBoosted.h">
+      <Filter>Header Files\SubgraphIsomorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="VF2.h">
+      <Filter>Header Files\SubgraphIsomorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="TurboIso.h">
+      <Filter>Header Files\SubgraphIsomorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="FindMaximumClique.h">
+      <Filter>Header Files\PCMBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="MQO.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="SQP.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalConstant.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="TurboIso_MQO.h">
+      <Filter>Header Files\SubgraphIsomorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="TurboIsoBoosted_MQO.h">
+      <Filter>Header Files\SubgraphIsomorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlapQueryGenerator.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomQG.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreVertexSpanOverlapQG.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSubgraphSpanOverlapQG.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CacheResultsTest.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="TurboIso_CacheResults.h">
+      <Filter>Header Files\SubgraphIsomorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="PartiLinkedLists.h">
+      <Filter>Header Files\IntermediateResult</Filter>
+    </ClInclude>
+    <ClInclude Include="FrequentPatternGroup.h">
+      <Filter>Header Files\PCMBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="fptree.hpp">
+      <Filter>Header Files\PCMBuilder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1dea7ad0-5bbb-450a-8e21-c095ed254495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1bc14f4f-ad99-4b9a-9b92-a4a418d6cbd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubgraphIsomorphism">
+      <UniqueIdentifier>{c8a6d37a-5bac-464d-a5c1-11521d747fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SubgraphIsomorphism">
+      <UniqueIdentifier>{c5066566-57fc-432d-811c-e524999a213c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PCMBuilder">
+      <UniqueIdentifier>{3add8102-11bf-45dc-a93d-f97fbb8bdd2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PCMBuilder">
+      <UniqueIdentifier>{52cff45d-ad51-4783-a3c1-9179529d2236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IntermediateResult">
+      <UniqueIdentifier>{89384dfc-e8d8-43d0-bbb1-97f2a4c8d0d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntermediateResult">
+      <UniqueIdentifier>{576fbea8-83e2-4eb4-ab5f-d8fc2228b2ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PartialEmbeddingConstruct">
+      <UniqueIdentifier>{65a9f43e-e9c3-490e-b6fa-d846913c9df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PartialEmbeddingConstruct">
+      <UniqueIdentifier>{d9e5c3f0-a5b1-4fc3-9d11-1f9d6fc3534e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{59356072-6a3c-4697-945b-90585bb6ddff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{7c2f44eb-491e-47a8-8ad6-b1e6b36af22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{e2a2cf85-2eed-475c-b809-7db3ac414fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{eb5ba711-ea45-475b-ac9e-fc98c8212429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{e7f3fb74-85f3-435e-9b65-5224a060d471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{786d0e22-8961-4910-817d-28e28d47b288}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
